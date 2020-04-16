@@ -9,6 +9,7 @@ class Movie(models.Model):
         ('HISTORY', _('history', ),),
         ('ACTION', _('action', ),),
         ('BIOGRAPHY', _('biography', ),),
+        ('FICTION', _('fiction', ), ),
     }
     title = models.CharField(max_length=50, )
     image = models.TextField(null=True, blank=True, )
